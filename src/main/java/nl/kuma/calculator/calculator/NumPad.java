@@ -24,6 +24,13 @@ public class NumPad {
    */
   private String currentOperator = "";
 
+  /**
+   * addPropertyChangeListener is een methode die wordt aangeroepen wanneer er een
+   * PropertyChangeListener wordt toegevoegd aan de rekenmachine. De listener wordt
+   * aangeroepen wanneer één van de properties van de rekenmachine verandert.
+   *
+   * @param listener
+   */
   public void addPropertyChangeListener(PropertyChangeListener listener) {
     pcs.addPropertyChangeListener(listener);
   }
